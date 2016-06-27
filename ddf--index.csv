@@ -1,9 +1,7 @@
 key,value,file
-concept,name,ddf--concepts--continuous.csv
-concept,unit,ddf--concepts--continuous.csv
-concept,concept_type,ddf--concepts--continuous.csv
-concept,name,ddf--concepts--discrete.csv
-concept,concept_type,ddf--concepts--discrete.csv
+concept,concept_type,ddf--concepts.csv
+concept,name,ddf--concepts.csv
+concept,unit,ddf--concepts.csv
 "country,year",afforest,ddf--datapoints--afforest--by--country--year.csv
 "country,year",artref,ddf--datapoints--artref--by--country--year.csv
 "country,year",avalcont,ddf--datapoints--avalcont--by--country--year.csv

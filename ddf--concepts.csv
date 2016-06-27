@@ -1,0 +1,155 @@
+concept,concept_type,name,unit
+name,string,Name,
+year,time,Year,
+country,entity_domain,Country,
+unit,string,Unit,
+forest,measure,Forest area,1 000 ha
+forchange,string,Change in total forest area,1 000 ha
+forperc,measure,Percent of land area with forest,%
+percapfor,measure,Forest area per capita,ha per person
+natfor,measure,Natural forest area,1 000 ha
+nfchange,measure,Natural forest area change,1 000 ha
+othwoolan,measure,Area of other wooded land,1 000 ha
+othlan,measure, Area of other land,1 000 ha
+lantrecov,measure,Other land of which with tree cover,1 000 ha
+inwater,measure,Inland water bodies,1 000 ha
+landarea,measure,Land area (without inland water),1 000 ha
+forexp,measure,Forest expantion,ha/yr
+afforest,measure,Forest expantion of which afforestion,ha/yr
+natforexp,measure,Forest expantion of which natural expansion of forest,ha/yr
+deforest,measure,Deforestation,ha/yr
+humdef,measure,Deforestation of which human induced,ha/yr
+reforest,measure,Reforestation,ha/yr
+artref,measure,Reforestation of which artificial,ha/yr
+primfor,measure,Primary forest ,1 000 ha
+natregfor,measure,Other naturally regenerated forest,1 000 ha
+introspp,measure,Other naturally regenerated forest of which introduced species,1 000 ha
+natzedspp,measure,Other naturally regenerated forest of which naturalized,1 000 ha
+plantfor,measure,Planted forest,1 000 ha
+pfchange,measure,Planted forest area change,1 000 ha
+introsppplant,measure,Planted forest of which is introduced species,1 000 ha
+mangrove,measure,Area of mangrove forest,1 000 ha
+plantman,measure,Area of mangrove forest of which planted,1 000 ha
+forgrow,measure,Forest growing stock,Mill. m3
+conifgrow,measure,Forest growing stock of which coniferous,Mill. m3
+broagrow,measure,Forest growing stock of which broadleaved,Mill. m3
+othwoogrow,measure,Other wooded land growing stock,Mill. m3
+othconifgrow,measure,Other wooded land growing stock of which coniferous,Mill. m3
+othbroagrow,measure,Other wooded land growing stock of which broadleaved,Mill. m3
+netannincr,measure,Net annual increment,m3/ha/yr
+incrconif,measure,Net annual increment of which coniferous,m3/ha/yr
+incrbroa,measure,Net annual increment of which broadleaved,m3/ha/yr
+forabovbiom,measure,Above-ground biomass - forest,Mill. tonnes (t) 
+othabovbiom,measure,Above-ground biomass - other wooded land,Mill. tonnes (t) 
+forbelbiom,measure,Below-ground biomass - forest,Mill. tonnes (t) 
+othbelbiom,measure,Below-ground biomass - other wooded land,Mill. tonnes (t) 
+fordeadw,measure,Dead wood - forest,Mill. tonnes (t) 
+othdeadw,measure,Dead wood - other wooded land,Mill. tonnes (t) 
+forabovcarb,measure,Carbon in above-ground biomass - forest,Mill. tonnes (t) 
+othabovcarb,measure,Carbon in above-ground biomass - other wooded land,Mill. tonnes (t) 
+forbelcarb,measure,Carbon in below-ground biomass - forest,Mill. tonnes (t) 
+othbelcarb,measure,Carbon in below-ground biomass - other wooded land,Mill. tonnes (t) 
+forsubliv,measure,Sub total carbon in living - forest,Mill. tonnes (t) 
+othsubliv,measure,Sub total carbon in living - other wooded land,Mill. tonnes (t) 
+deadforcarb,measure,Carbon in dead wood - forest,Mill. tonnes (t) 
+deadothcarb,measure,Carbon in dead wood - other wooded land,Mill. tonnes (t) 
+forlittcarb,measure,Carbon in litter - forest,Mill. tonnes (t) 
+othlittcarb,measure, Carbon in litter - other wooded land,Mill. tonnes (t) 
+forsubtotdwlitt,measure,Subtotal carbon in dead wood and litter - forest,Mill. tonnes (t) 
+othsubtotdwlitt,measure,Subtotal carbon in dead wood and litter - other wooded land,Mill. tonnes (t) 
+forsoilcarb,measure,Soil carbon - forest,Mill. tonnes (t) 
+othsoilcarb,measure,Soil carbon - other wooded land,Mill. tonnes (t) 
+prodfor,measure,Production forest,1 000 ha
+mulusefor,measure,Multiple use forest,1 000 ha
+nwfpvalsum,measure,Value of most important commercial NWFPs,National currency
+invsppareatot,measure,Area of forest affected by woody invasive species,1 000 ha 
+reducanopy,measure,Area of forest with reduced canopy cover,1 000 ha
+sfmpolicn,string,Policies supporting sustainable forest management at national level,Boolean
+sfmpolicr,string,Policies supporting sustainable forest management at regional level,Boolean
+sfmpolicp,string,Policies supporting sustainable forest management at provincial level,Boolean
+sfmpolicl,string,Policies supporting sustainable forest management at local level,Boolean
+pubpolicn,string,Policies supporting sustainable forest management of which in publicly owned forests  at national level,Boolean
+pubpolicr,string,Policies supporting sustainable forest management of which in publicly owned forests at regional level,Boolean
+pubpolicp,string,Policies supporting sustainable forest management of which in publicly owned forests at provincial level,Boolean
+pubpolicl,string,Policies supporting sustainable forest management of which in publicly owned forests at local level,Boolean
+privpolicn,string,Policies supporting sustainable forest management of which in privately owned forests  at national level,Boolean
+privpolicr,string,Policies supporting sustainable forest management of which in privately owned forests at regional level,Boolean
+privpolicp,string,Policies supporting sustainable forest management of which in privately owned forests at provincial level,Boolean
+privpolicl,string,Policies supporting sustainable forest management of which in privately owned forests at local level,Boolean
+sfmlegn,string,Legislation and regulations supporting sustainable forest management  at national level,Boolean
+sfmlegr,string,Legislation and regulations supporting sustainable forest management at regional level,Boolean
+sfmlegp,string,Legislation and regulations supporting sustainable forest management at provincial level,Boolean
+sfmlegl,string,Legislation and regulations supporting sustainable forest management at local level,Boolean
+publegn,string,Legislation and regulations supporting sustainable forest management  of which in publicly owned forests at national level,Boolean
+publegr,string,Legislation and regulations supporting sustainable forest management of which in publicly owned forests at regional level,Boolean
+publegp,string,Legislation and regulations supporting sustainable forest management of which in publicly owned forests at provincial level,Boolean
+publegl,string,Legislation and regulations supporting sustainable forest management of which in publicly owned forests at local level,Boolean
+privlegn,string,Legislation and regulations supporting sustainable forest management of which in privately owned forests  at national level,Boolean
+privlegr,string,Legislation and regulations supporting sustainable forest management of which in privately owned forests at regional level,Boolean
+privlegp,string,Legislation and regulations supporting sustainable forest management of which in privately owned forests at provincial level,Boolean
+privlegl,string,Legislation and regulations supporting sustainable forest management of which in privately owned forests at local level,Boolean
+natiostake,string,National stakeholder platform ,Boolean
+permforuse,measure,Forest area intended to be in permanent forest land use,1 000 ha
+permforest,measure,Forest area intended to be in permanent forest land use of which permanent forest estate ,1 000 ha
+natioforinv1,measure,National forest inventory monitoring forest area,% of total forest area
+natioforinv2,measure,Most recent year of national forest inventory monitoring forest area,Most recent year
+expertestim1,measure,National expert estimate monitoring forest area ,% of total forest area
+expertestim2,measure,Most recent year of national expert estimate monitoring forest area ,Most recent year
+indicrepo,string,Criteria and indicators reporting,Boolean
+staterepo,string,Periodic national state of the forest reporting,Boolean
+othrepo,string,Other reporting,Boolean
+norepo,string,None,Boolean
+managplan,measure,Forest area with management plan,1 000 ha
+prodplan,measure,Forest area with management plan of which for production,1 000 ha
+consplan,measure,Forest area with management plan of which conservation,1 000 ha
+soilwatmanag,string,Soil and water management,Boolean
+fordelin,string,High conservation value forest delineation,Boolean
+social,string,Social consideration/community involvement,Boolean
+monitmanag,measure,Percent of area under forest management plan that is monitored annually,%
+planning,string,Type of stakeholder inputs - Planning phase,Boolean
+operation,string,Type of stakeholder inputs - Operations phase,Boolean
+review,string,Review of operations,Boolean
+biocons,measure,Conservation of biodiversity ,1 000 ha
+protarea,measure,Forest area within protected areas,1 000 ha
+soilwatprot,measure,Protection of soil and water,1 000 ha
+cleanwat,measure,Protection of soil and water of which production of clean water,1 000 ha
+coststab,measure,Protection of soil and water of which coastal stabilization ,1 000 ha
+desercont,measure,Protection of soil and water of which desertification control,1 000 ha
+avalcont,measure,Protection of soil and water of which avalanche control,1 000 ha
+floodcont,measure,"Protection of soil and water of which erosion, flood protection or reducing flood risk",1 000 ha
+othcont,measure,Protection of soil and water of which other,1 000 ha
+ecoserv,measure,"Ecosystem services, cultural or spiritual values",1 000 ha
+pubrecr,measure,Ecosystem services of which public recreation,1 000 ha
+carbstor,measure,Ecosystem services of which carbon storage or sequestration ,1 000 ha
+cultserv,measure,Ecosystem services of which spiritual or cultural services,1 000 ha
+othserv,measure,Ecosystem services of which other,1 000 ha
+revenue,measure,Forest revenue,local currency
+pubforexpe,measure,Public expenditure on forests ,local currency
+forempl,measure,Employment in forestry,1000 FTE
+femempl,measure,Employment in forestry of which female,1000 FTE
+forgrosval,measure,Gross value added from forestry,local currency
+usdnwfp,measure,NWFP value in USD,USD
+usdrev,measure,Revenue in USD,USD
+usdexp,measure,Expenditure in USD,USD
+usdforgrosval,measure,Gross value added in USD,USD
+pubown,measure,Public ownership,1000 ha
+stateown,measure,Public ownership of which owned by the state at national scale,1000 ha
+subgovown,measure,Public ownership of which owned by the state at the sub-national government scale,1000 ha
+privown,measure,Private ownership,1000 ha
+indivown,measure,Private ownership of which owned by individuals,1000 ha
+privbusown,measure,Private ownership of which owned by private business entities and institutions,1000 ha
+indigown,measure,"Private ownership of which owned by local, tribal and indigenous communities",1000 ha
+unknown,measure,Unknown ownership,1000 ha
+pubadmin,measure,Public administration,1000 ha
+indiv,measure,Individuals,1000 ha
+privcomp,measure,Private companies,1000 ha
+commun,measure,Communities,1000 ha
+other,measure,Other ,1000 ha
+wooremov,measure,Total wood removal,1000 m3
+woofuel,measure,Total wood removal of which wood fuel,1000 m3
+burnlan,measure,Total land area burned,1 000 ha/yr
+burnfor,measure,Total land area burned of which forest area burned,1 000 ha/yr
+fscarea,measure,Area of forest certified under FSC,1 000 ha
+pefcarea,measure,Area of forest certified under PEFC,1 000 ha
+othintcertif,measure,Area of forest certified by other international certification,1 000 ha
+forconvarea,measure,Forest area earmarked for conversion,1000 ha
