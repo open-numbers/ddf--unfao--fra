@@ -5,21 +5,39 @@
     },
     "resources": [
         {
-            "path": "ddf--concepts.csv",
-            "name": "ddf--concepts",
+            "path": "ddf--concepts--continuous.csv",
+            "name": "ddf--concepts--continuous",
             "schema": {
                 "fields": [
                     {
                         "name": "concept"
                     },
                     {
+                        "name": "name"
+                    },
+                    {
+                        "name": "unit"
+                    },
+                    {
                         "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--concepts--discrete.csv",
+            "name": "ddf--concepts--discrete",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
                     },
                     {
                         "name": "name"
                     },
                     {
-                        "name": "unit"
+                        "name": "concept_type"
                     }
                 ],
                 "primaryKey": "concept"
