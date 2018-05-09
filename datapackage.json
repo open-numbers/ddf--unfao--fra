@@ -3,6 +3,7 @@
     "language": {
         "id": "en"
     },
+    "created": "2018-05-09T03:36:45.674611+00:00",
     "resources": [
         {
             "path": "ddf--concepts--continuous.csv",
@@ -3208,5 +3209,1551 @@
                 "primaryKey": "country"
             }
         }
-    ]
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts--continuous",
+                    "ddf--concepts--discrete"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts--continuous",
+                    "ddf--concepts--discrete"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "unit",
+                "resources": [
+                    "ddf--concepts--continuous"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--country"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "afforest",
+                "resources": [
+                    "ddf--datapoints--afforest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "artref",
+                "resources": [
+                    "ddf--datapoints--artref--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "avalcont",
+                "resources": [
+                    "ddf--datapoints--avalcont--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "biocons",
+                "resources": [
+                    "ddf--datapoints--biocons--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "broagrow",
+                "resources": [
+                    "ddf--datapoints--broagrow--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "burnfor",
+                "resources": [
+                    "ddf--datapoints--burnfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "burnlan",
+                "resources": [
+                    "ddf--datapoints--burnlan--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "carbstor",
+                "resources": [
+                    "ddf--datapoints--carbstor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cleanwat",
+                "resources": [
+                    "ddf--datapoints--cleanwat--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "commun",
+                "resources": [
+                    "ddf--datapoints--commun--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "conifgrow",
+                "resources": [
+                    "ddf--datapoints--conifgrow--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "consplan",
+                "resources": [
+                    "ddf--datapoints--consplan--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "coststab",
+                "resources": [
+                    "ddf--datapoints--coststab--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "cultserv",
+                "resources": [
+                    "ddf--datapoints--cultserv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "deadforcarb",
+                "resources": [
+                    "ddf--datapoints--deadforcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "deadothcarb",
+                "resources": [
+                    "ddf--datapoints--deadothcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "deforest",
+                "resources": [
+                    "ddf--datapoints--deforest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "desercont",
+                "resources": [
+                    "ddf--datapoints--desercont--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ecoserv",
+                "resources": [
+                    "ddf--datapoints--ecoserv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "expertestim1",
+                "resources": [
+                    "ddf--datapoints--expertestim1--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "expertestim2",
+                "resources": [
+                    "ddf--datapoints--expertestim2--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "femempl",
+                "resources": [
+                    "ddf--datapoints--femempl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "floodcont",
+                "resources": [
+                    "ddf--datapoints--floodcont--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forabovbiom",
+                "resources": [
+                    "ddf--datapoints--forabovbiom--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forabovcarb",
+                "resources": [
+                    "ddf--datapoints--forabovcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forbelbiom",
+                "resources": [
+                    "ddf--datapoints--forbelbiom--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forbelcarb",
+                "resources": [
+                    "ddf--datapoints--forbelcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forchange",
+                "resources": [
+                    "ddf--datapoints--forchange--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forconvarea",
+                "resources": [
+                    "ddf--datapoints--forconvarea--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "fordeadw",
+                "resources": [
+                    "ddf--datapoints--fordeadw--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "fordelin",
+                "resources": [
+                    "ddf--datapoints--fordelin--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forempl",
+                "resources": [
+                    "ddf--datapoints--forempl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forest",
+                "resources": [
+                    "ddf--datapoints--forest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forexp",
+                "resources": [
+                    "ddf--datapoints--forexp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forgrosval",
+                "resources": [
+                    "ddf--datapoints--forgrosval--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forgrow",
+                "resources": [
+                    "ddf--datapoints--forgrow--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forlittcarb",
+                "resources": [
+                    "ddf--datapoints--forlittcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forperc",
+                "resources": [
+                    "ddf--datapoints--forperc--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forsoilcarb",
+                "resources": [
+                    "ddf--datapoints--forsoilcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forsubliv",
+                "resources": [
+                    "ddf--datapoints--forsubliv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "forsubtotdwlitt",
+                "resources": [
+                    "ddf--datapoints--forsubtotdwlitt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "fscarea",
+                "resources": [
+                    "ddf--datapoints--fscarea--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "humdef",
+                "resources": [
+                    "ddf--datapoints--humdef--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "incrbroa",
+                "resources": [
+                    "ddf--datapoints--incrbroa--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "incrconif",
+                "resources": [
+                    "ddf--datapoints--incrconif--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "indicrepo",
+                "resources": [
+                    "ddf--datapoints--indicrepo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "indigown",
+                "resources": [
+                    "ddf--datapoints--indigown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "indiv",
+                "resources": [
+                    "ddf--datapoints--indiv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "indivown",
+                "resources": [
+                    "ddf--datapoints--indivown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "introspp",
+                "resources": [
+                    "ddf--datapoints--introspp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "introsppplant",
+                "resources": [
+                    "ddf--datapoints--introsppplant--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "invsppareatot",
+                "resources": [
+                    "ddf--datapoints--invsppareatot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "inwater",
+                "resources": [
+                    "ddf--datapoints--inwater--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "landarea",
+                "resources": [
+                    "ddf--datapoints--landarea--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "lantrecov",
+                "resources": [
+                    "ddf--datapoints--lantrecov--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "managplan",
+                "resources": [
+                    "ddf--datapoints--managplan--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mangrove",
+                "resources": [
+                    "ddf--datapoints--mangrove--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "monitmanag",
+                "resources": [
+                    "ddf--datapoints--monitmanag--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "mulusefor",
+                "resources": [
+                    "ddf--datapoints--mulusefor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natfor",
+                "resources": [
+                    "ddf--datapoints--natfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natforexp",
+                "resources": [
+                    "ddf--datapoints--natforexp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natioforinv1",
+                "resources": [
+                    "ddf--datapoints--natioforinv1--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natioforinv2",
+                "resources": [
+                    "ddf--datapoints--natioforinv2--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natiostake",
+                "resources": [
+                    "ddf--datapoints--natiostake--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natregfor",
+                "resources": [
+                    "ddf--datapoints--natregfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "natzedspp",
+                "resources": [
+                    "ddf--datapoints--natzedspp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "netannincr",
+                "resources": [
+                    "ddf--datapoints--netannincr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "nfchange",
+                "resources": [
+                    "ddf--datapoints--nfchange--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "norepo",
+                "resources": [
+                    "ddf--datapoints--norepo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "nwfpvalsum",
+                "resources": [
+                    "ddf--datapoints--nwfpvalsum--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "operation",
+                "resources": [
+                    "ddf--datapoints--operation--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othabovbiom",
+                "resources": [
+                    "ddf--datapoints--othabovbiom--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othabovcarb",
+                "resources": [
+                    "ddf--datapoints--othabovcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othbelbiom",
+                "resources": [
+                    "ddf--datapoints--othbelbiom--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othbelcarb",
+                "resources": [
+                    "ddf--datapoints--othbelcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othbroagrow",
+                "resources": [
+                    "ddf--datapoints--othbroagrow--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othconifgrow",
+                "resources": [
+                    "ddf--datapoints--othconifgrow--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othcont",
+                "resources": [
+                    "ddf--datapoints--othcont--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othdeadw",
+                "resources": [
+                    "ddf--datapoints--othdeadw--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "other",
+                "resources": [
+                    "ddf--datapoints--other--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othintcertif",
+                "resources": [
+                    "ddf--datapoints--othintcertif--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othlan",
+                "resources": [
+                    "ddf--datapoints--othlan--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othlittcarb",
+                "resources": [
+                    "ddf--datapoints--othlittcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othrepo",
+                "resources": [
+                    "ddf--datapoints--othrepo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othserv",
+                "resources": [
+                    "ddf--datapoints--othserv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othsoilcarb",
+                "resources": [
+                    "ddf--datapoints--othsoilcarb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othsubliv",
+                "resources": [
+                    "ddf--datapoints--othsubliv--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othsubtotdwlitt",
+                "resources": [
+                    "ddf--datapoints--othsubtotdwlitt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othwoogrow",
+                "resources": [
+                    "ddf--datapoints--othwoogrow--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "othwoolan",
+                "resources": [
+                    "ddf--datapoints--othwoolan--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pefcarea",
+                "resources": [
+                    "ddf--datapoints--pefcarea--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "percapfor",
+                "resources": [
+                    "ddf--datapoints--percapfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "permforest",
+                "resources": [
+                    "ddf--datapoints--permforest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "permforuse",
+                "resources": [
+                    "ddf--datapoints--permforuse--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pfchange",
+                "resources": [
+                    "ddf--datapoints--pfchange--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "planning",
+                "resources": [
+                    "ddf--datapoints--planning--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "plantfor",
+                "resources": [
+                    "ddf--datapoints--plantfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "plantman",
+                "resources": [
+                    "ddf--datapoints--plantman--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "primfor",
+                "resources": [
+                    "ddf--datapoints--primfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privbusown",
+                "resources": [
+                    "ddf--datapoints--privbusown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privcomp",
+                "resources": [
+                    "ddf--datapoints--privcomp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privlegl",
+                "resources": [
+                    "ddf--datapoints--privlegl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privlegn",
+                "resources": [
+                    "ddf--datapoints--privlegn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privlegp",
+                "resources": [
+                    "ddf--datapoints--privlegp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privlegr",
+                "resources": [
+                    "ddf--datapoints--privlegr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privown",
+                "resources": [
+                    "ddf--datapoints--privown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privpolicl",
+                "resources": [
+                    "ddf--datapoints--privpolicl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privpolicn",
+                "resources": [
+                    "ddf--datapoints--privpolicn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privpolicp",
+                "resources": [
+                    "ddf--datapoints--privpolicp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "privpolicr",
+                "resources": [
+                    "ddf--datapoints--privpolicr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "prodfor",
+                "resources": [
+                    "ddf--datapoints--prodfor--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "prodplan",
+                "resources": [
+                    "ddf--datapoints--prodplan--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "protarea",
+                "resources": [
+                    "ddf--datapoints--protarea--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubadmin",
+                "resources": [
+                    "ddf--datapoints--pubadmin--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubforexpe",
+                "resources": [
+                    "ddf--datapoints--pubforexpe--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "publegl",
+                "resources": [
+                    "ddf--datapoints--publegl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "publegn",
+                "resources": [
+                    "ddf--datapoints--publegn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "publegp",
+                "resources": [
+                    "ddf--datapoints--publegp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "publegr",
+                "resources": [
+                    "ddf--datapoints--publegr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubown",
+                "resources": [
+                    "ddf--datapoints--pubown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubpolicl",
+                "resources": [
+                    "ddf--datapoints--pubpolicl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubpolicn",
+                "resources": [
+                    "ddf--datapoints--pubpolicn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubpolicp",
+                "resources": [
+                    "ddf--datapoints--pubpolicp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubpolicr",
+                "resources": [
+                    "ddf--datapoints--pubpolicr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "pubrecr",
+                "resources": [
+                    "ddf--datapoints--pubrecr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "reducanopy",
+                "resources": [
+                    "ddf--datapoints--reducanopy--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "reforest",
+                "resources": [
+                    "ddf--datapoints--reforest--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "revenue",
+                "resources": [
+                    "ddf--datapoints--revenue--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "review",
+                "resources": [
+                    "ddf--datapoints--review--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmlegl",
+                "resources": [
+                    "ddf--datapoints--sfmlegl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmlegn",
+                "resources": [
+                    "ddf--datapoints--sfmlegn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmlegp",
+                "resources": [
+                    "ddf--datapoints--sfmlegp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmlegr",
+                "resources": [
+                    "ddf--datapoints--sfmlegr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmpolicl",
+                "resources": [
+                    "ddf--datapoints--sfmpolicl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmpolicn",
+                "resources": [
+                    "ddf--datapoints--sfmpolicn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmpolicp",
+                "resources": [
+                    "ddf--datapoints--sfmpolicp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sfmpolicr",
+                "resources": [
+                    "ddf--datapoints--sfmpolicr--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "social",
+                "resources": [
+                    "ddf--datapoints--social--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "soilwatmanag",
+                "resources": [
+                    "ddf--datapoints--soilwatmanag--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "soilwatprot",
+                "resources": [
+                    "ddf--datapoints--soilwatprot--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "stateown",
+                "resources": [
+                    "ddf--datapoints--stateown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "staterepo",
+                "resources": [
+                    "ddf--datapoints--staterepo--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "subgovown",
+                "resources": [
+                    "ddf--datapoints--subgovown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "unknown",
+                "resources": [
+                    "ddf--datapoints--unknown--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "usdexp",
+                "resources": [
+                    "ddf--datapoints--usdexp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "usdforgrosval",
+                "resources": [
+                    "ddf--datapoints--usdforgrosval--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "usdnwfp",
+                "resources": [
+                    "ddf--datapoints--usdnwfp--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "usdrev",
+                "resources": [
+                    "ddf--datapoints--usdrev--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "woofuel",
+                "resources": [
+                    "ddf--datapoints--woofuel--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "wooremov",
+                "resources": [
+                    "ddf--datapoints--wooremov--by--country--year"
+                ]
+            }
+        ]
+    }
 }
