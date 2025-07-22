@@ -121,7 +121,7 @@ def create_concepts_file():
 
         # Add concept_type and domain columns
         concepts_df['concept_type'] = 'measure'
-        concepts_df['domain'] = 'geo'  # All measures apply to geo entities
+        concepts_df['domain'] = ''
 
         # Add standard DDF concepts
         standard_concepts = pd.DataFrame([
