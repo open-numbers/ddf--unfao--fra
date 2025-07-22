@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-07-22T07:43:10.178Z",
+    "created": "2025-07-22T08:44:48.633Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -2588,6 +2588,27 @@
                     "year"
                 ]
             }
+        },
+        {
+            "name": "ddf--datapoints--wooremov--by--geo--year",
+            "path": "datapoints/ddf--datapoints--wooremov--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "wooremov"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
         }
     ],
     "ddfSchema": {
@@ -3849,6 +3870,16 @@
                 "value": "7b_total_tot",
                 "resources": [
                     "ddf--datapoints--7b_total_tot--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "wooremov",
+                "resources": [
+                    "ddf--datapoints--wooremov--by--geo--year"
                 ]
             }
         ],
