@@ -160,6 +160,13 @@ def process_file(filepath, output_dir):
         print(f"Error reading {filepath}: {e}")
         return
 
+    # Drop specified columns that should not be processed as datapoints
+    columns_to_drop = ['boreal', 'subtropical', 'temperate', 'tropical']
+    existing_columns_to_drop = [col for col in columns_to_drop if col in df.columns]
+    if existing_columns_to_drop:
+        df = df.drop(columns=existing_columns_to_drop)
+        print(f"  Dropped columns: {existing_columns_to_drop}")
+
     # Define primary key columns and descriptive columns that are not variables
     id_vars = ['iso3', 'year']
     descriptive_vars = ['regions', 'deskStudy', 'name']
@@ -211,7 +218,7 @@ def process_file(filepath, output_dir):
             continue
 
         # Define the output path and filename according to DDF conventions
-        output_filename = f'ddf--datapoint--{var_clean}--by--geo--year.csv'
+        output_filename = f'ddf--datapoints--{var_clean}--by--geo--year.csv'
         output_path = os.path.join(output_dir, output_filename)
 
         # Save the processed data to a new CSV file
