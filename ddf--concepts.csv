@@ -1,0 +1,118 @@
+concept,name,description,concept_type,domain
+geo,Geographic Entity,Geographic entity identifier,entity_domain,
+year,Year,Year,time,
+name,Name,Name of the entity,string,
+domain,Domain,Entity set domain for the concept,string,
+description,Description,Description,string,
+1a_forest_area,Forest Area,"Land spanning more than 0.5 hectares with trees higher than 5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban land use.",measure,geo
+1a_land_area,Land Area,Total land area of a country or territory.,measure,geo
+1a_other_wooded_land,Other Wooded Land,"Land not classified as Forest, spanning more than 0.5 hectares; with trees higher than 5 meters and a canopy cover of 5-10 percent, or trees able to reach these thresholds in situ; or with a combined cover of shrubs, bushes and trees above 10 percent. It does not include land that is predominantly under agricultural or urban land use.",measure,geo
+1b_naturally_regenerating_forest,Naturally Regenerating Forest,Forest predominantly composed of trees established through natural regeneration.,measure,geo
+1b_other_planted_forest,Other Planted Forest,Planted forest which is not classified as plantation forest.,measure,geo
+1b_plantation_forest_introduced,Plantation Forest (Introduced),"Plantation forest composed of introduced tree species that is intensively managed and meets all criteria at planting and stand maturity: one or two species, even age class, and regular spacing.",measure,geo
+1b_plantation_forest,Plantation Forest,"Planted Forest that is intensively managed and meet ALL the following criteria at planting and stand maturity: one or two species, even age class, and regular spacing.",measure,geo
+1b_planted_forest,Planted Forest,Forest predominantly composed of trees established through planting and/or deliberate seeding.,measure,geo
+1c_bamboos,Bamboos,Forest area with predominant bamboo vegetation.,measure,geo
+1c_mangroves,Mangroves,Forest and other wooded land with mangrove vegetation.,measure,geo
+1c_primary,Primary Forest,"Naturally regenerated forest of native tree species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed.",measure,geo
+1c_rubber,Rubber Plantations,Forest area including rubber-wood plantations.,measure,geo
+1c_temp_unstocked,Temporarily Unstocked Forest,Forest area which is temporarily unstocked or with trees shorter than 1.3 meters that have not yet reached but are expected to reach a canopy cover of at least 10 percent and tree height of at least 5 meters.,measure,geo
+1f_agroforestry,Agroforestry,Other land with tree cover with agricultural crops and/or pastures/animals.,measure,geo
+1f_other,Other Land with Tree Cover,"Land classified as ""other land"", spanning more than 0.5 hectares with a canopy cover of more than 10 percent of trees able to reach a height of 5 meters at maturity.",measure,geo
+1f_palms,Palms,"Other land tree cover predominantly composed of palms for production of oil, coconuts or dates.",measure,geo
+1f_tree_orchards,Tree Orchards,"Other land with tree cover predominantly composed of trees for production of fruits, nuts, or olives.",measure,geo
+1f_trees_urban_settings,Trees in Urban Settings,"Other land with tree cover such as: urban parks, alleys and gardens.",measure,geo
+2a_gs_ha_forest,Growing Stock per Hectare (Forest),"Volume over bark of all living trees with a minimum diameter of 10 cm at breast height (or above buttress if these are higher) per hectare in forest areas. Includes the stem from ground level up to a top diameter of 0 cm, excluding branches.",measure,geo
+2a_gs_ha_nat_reg,Growing Stock per Hectare (Naturally Regenerating),Volume over bark of all living trees with a minimum diameter of 10 cm at breast height per hectare in naturally regenerating forest.,measure,geo
+2a_gs_ha_other_planted,Growing Stock per Hectare (Other Planted),Volume over bark of all living trees with a minimum diameter of 10 cm at breast height per hectare in other planted forest.,measure,geo
+2a_gs_ha_owl,Growing Stock per Hectare (Other Wooded Land),Volume over bark of all living trees with a minimum diameter of 10 cm at breast height per hectare in other wooded land.,measure,geo
+2a_gs_ha_plantation,Growing Stock per Hectare (Plantation),Volume over bark of all living trees with a minimum diameter of 10 cm at breast height per hectare in plantation forest.,measure,geo
+2a_gs_ha_planted,Growing Stock per Hectare (Planted),Volume over bark of all living trees with a minimum diameter of 10 cm at breast height per hectare in planted forest.,measure,geo
+2a_gs_tot_forest,Total Growing Stock (Forest),Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height in forest areas.,measure,geo
+2a_gs_tot_nat_reg,Total Growing Stock (Naturally Regenerating),Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height in naturally regenerating forest.,measure,geo
+2a_gs_tot_other_planted,Total Growing Stock (Other Planted),Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height in other planted forest.,measure,geo
+2a_gs_tot_owl,Total Growing Stock (Other Wooded Land),Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height in other wooded land.,measure,geo
+2a_gs_tot_plantation,Total Growing Stock (Plantation),Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height in plantation forest.,measure,geo
+2a_gs_tot_planted,Total Growing Stock (Planted),Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height in planted forest.,measure,geo
+2b_introduced_num1,Introduced Species #1,Growing stock volume of the most abundant introduced tree species occurring outside its natural range.,measure,geo
+2b_introduced_num2,Introduced Species #2,Growing stock volume of the second most abundant introduced tree species occurring outside its natural range.,measure,geo
+2b_introduced_num3,Introduced Species #3,Growing stock volume of the third most abundant introduced tree species occurring outside its natural range.,measure,geo
+2b_introduced_num4,Introduced Species #4,Growing stock volume of the fourth most abundant introduced tree species occurring outside its natural range.,measure,geo
+2b_introduced_num5,Introduced Species #5,Growing stock volume of the fifth most abundant introduced tree species occurring outside its natural range.,measure,geo
+2b_introduced_remaining,Introduced Species (Remaining),Growing stock volume of all other introduced tree species not in top 5.,measure,geo
+2b_introduced_total,Introduced Species (Total),Total growing stock volume of all introduced tree species occurring outside their natural range and dispersal potential.,measure,geo
+2b_native_num1,Native Species #1,Growing stock volume of the most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num2,Native Species #2,Growing stock volume of the second most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num3,Native Species #3,Growing stock volume of the third most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num4,Native Species #4,Growing stock volume of the fourth most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num5,Native Species #5,Growing stock volume of the fifth most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num6,Native Species #6,Growing stock volume of the sixth most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num7,Native Species #7,Growing stock volume of the seventh most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num8,Native Species #8,Growing stock volume of the eighth most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num9,Native Species #9,Growing stock volume of the ninth most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_num10,Native Species #10,Growing stock volume of the tenth most abundant native tree species occurring within its natural range.,measure,geo
+2b_native_remaining,Native Species (Remaining),Growing stock volume of all other native tree species not in top 10.,measure,geo
+2b_native_total,Native Species (Total),Total growing stock volume of all native tree species occurring within their natural range (past or present) and dispersal potential.,measure,geo
+2b_total_gs,Total Growing Stock,Total volume over bark of all living trees with a minimum diameter of 10 cm at breast height.,measure,geo
+2c_agb,Above-Ground Biomass,"All biomass of living vegetation, both woody and herbaceous, above the soil including stems, stumps, branches, bark, seeds, and foliage.",measure,geo
+2c_bgb,Below-Ground Biomass,All biomass of live roots. Fine roots of less than 2 mm diameter are excluded because these often cannot be distinguished empirically from soil organic matter or litter.,measure,geo
+2c_dwb,Dead Wood Biomass,"All non-living woody biomass not contained in the litter, either standing, lying on the ground, or in the soil. Dead wood includes wood lying on the surface, dead roots, and stumps larger than or equal to 10 cm in diameter or any other diameter used by the country.",measure,geo
+2d_carbon_agb,Carbon in Above-Ground Biomass,"Carbon in all living biomass above the soil, including stems, stumps, branches, bark, seeds, and foliage.",measure,geo
+2d_carbon_bgb,Carbon in Below-Ground Biomass,"Carbon in all biomass of live roots. Fine roots of less than 2 mm diameter are excluded, because these often cannot be distinguished empirically from soil organic matter or litter.",measure,geo
+2d_carbon_dw,Carbon in Dead Wood,"Carbon in all non-living woody biomass not contained in the litter, either standing, lying on the ground, or in the soil. Dead wood includes wood lying on the surface, dead roots down to 2 mm, and stumps larger than or equal to 10 cm in diameter.",measure,geo
+2d_carbon_litter,Carbon in Litter,"Carbon in all non-living biomass with a diameter less than the minimum diameter for dead wood (e.g. 10 cm), lying dead in various states of decomposition above the mineral or organic soil.",measure,geo
+2d_carbon_soil,Soil Carbon,Organic carbon in mineral and organic soils (including peat) to a specified depth chosen by the country and applied consistently through the time series.,measure,geo
+2d_soil_depth_cm,Soil Depth (cm),Depth of soil layer measured for carbon content assessment in centimeters.,measure,geo
+3a_prim_biodiv,Primary Management: Biodiversity,Forest where the management objective is conservation of biological diversity. Includes but is not limited to areas designated for biodiversity conservation within the protected areas.,measure,geo
+3a_prim_multi,Primary Management: Multiple Use,Forest where the management objective is a combination of several purposes and where none of them is significantly more important than the other.,measure,geo
+3a_prim_no_unknown,Primary Management: No/Unknown,Forest with no or unknown primary management objective.,measure,geo
+3a_prim_other,Primary Management: Other,"Forest where the management objective is other than production, protection, conservation, social services or multiple use.",measure,geo
+3a_prim_prod,Primary Management: Production,"Forest where the management objective is production of wood, fibre, bio-energy and/or non wood forest products.",measure,geo
+3a_prim_prot,Primary Management: Protection,Forest where the management objective is protection of soil and water.,measure,geo
+3a_prim_socserv,Primary Management: Social Services,"Forest where the management objective is social services including services such as: recreation, tourism, education, research and/or conservation of cultural/spiritual sites.",measure,geo
+3a_tot_biodiv,Total Management: Biodiversity,Total forest area with biodiversity conservation as a designated management objective (primary or secondary).,measure,geo
+3a_tot_other,Total Management: Other,Total forest area with other management objectives as designated management objectives.,measure,geo
+3a_tot_prod,Total Management: Production,Total forest area with production as a designated management objective (primary or secondary).,measure,geo
+3a_tot_prot,Total Management: Protection,Total forest area with protection as a designated management objective (primary or secondary).,measure,geo
+3a_tot_socserv,Total Management: Social Services,Total forest area with social services as a designated management objective (primary or secondary).,measure,geo
+3b_for_mngt,Forest with Management Plan,"Forest area that has a long-term (ten years or more) documented management plan, aiming at defined management goals, and which is periodically revised.",measure,geo
+3b_mngt_prot,Management in Protected Areas,"Forest area within protected areas that has a long-term (ten years or more) documented management plan, aiming at defined management goals, and which is periodically revised.",measure,geo
+3b_protected,Protected Forest Areas,Forest area within formally established protected areas independently of the purpose for which the protected areas were established.,measure,geo
+4a_bus_inst_fo,Business/Institutional Ownership,"Forest owned by private corporations, co-operatives, companies and other business entities, as well as private organizations such as NGOs, nature conservation associations, and private religious and educational institutions.",measure,geo
+4a_fo_unknown,Forest Ownership Unknown,Other kinds of ownership arrangements not covered by public or private ownership or forest area where ownership is unknown.,measure,geo
+4a_indigenous_fo,Indigenous/Community Ownership,Forest owned by a group of individuals belonging to the same community residing within or in the vicinity of a forest area or forest owned by communities of indigenous or tribal people.,measure,geo
+4a_individ,Individual Ownership,Forest owned by individuals and families.,measure,geo
+4a_priv_own,Private Ownership,"Forest owned by individuals, families, communities, private co-operatives, corporations and other business entities, religious and private educational institutions, pension or investment funds, NGOs, nature conservation associations and other private institutions.",measure,geo
+4a_pub_own,Public Ownership,Forest owned by the State; or administrative units of the Public Administration; or by institutions or corporations owned by the Public Administration.,measure,geo
+4b_bus_inst_mr,Business/Institutional Management Rights,"Forest management rights and responsibilities transferred from the Public Administration to corporations, other business entities, private co-operatives, private non-profit institutions and associations, etc., through long-term leases or management agreements.",measure,geo
+4b_indigenous_mr,Indigenous/Community Management Rights,Forest management rights and responsibilities transferred from the Public Administration to local communities (including indigenous and tribal communities) through long-term leases or management agreements.,measure,geo
+4b_individuals,Individual Management Rights,Forest management rights and responsibilities transferred from the Public Administration to individuals or households through long-term leases or management agreements.,measure,geo
+4b_pub_admin,Public Administration Management,The Public Administration (or institutions or corporations owned by the Public Administration) retains management rights and responsibilities within the limits specified by the legislation.,measure,geo
+4b_unknown,Management Rights Unknown,Forests for which the transfer of management rights does not belong to any of the specified categories.,measure,geo
+5a_diseases,Forest Disturbance by Diseases,"Disturbance caused by diseases attributable to pathogens such as bacteria, fungi, phytoplasma or viruses.",measure,geo
+5a_insect,Forest Disturbance by Insects,Disturbance caused by insect pests.,measure,geo
+5a_other,Other Forest Disturbances,"Annual area of forest affected by other disturbances not specified in main categories (damage caused by any factor that adversely affects the vigor and productivity of the forest and which is not a direct result of human activities, excluding forest fires).",measure,geo
+5a_weather,Forest Disturbance by Weather,"Disturbances caused by abiotic factors, such as snow, storm, droughts, etc.",measure,geo
+5b_fire_forest,Forest Area Affected by Fire,Forest area affected by fire.,measure,geo
+5b_fire_land,Total Land Area Affected by Fire,Land area affected by fire (including non-forest areas).,measure,geo
+5c_y_n,Degraded Forest (Yes/No),Indicator of whether the country has degraded forest areas (to be defined by the country).,measure,geo
+6a_legislation_national,National Forest Legislation,"Legislation and regulations that govern and guide sustainable forest management, operations and use at national level.",measure,geo
+6a_legislation_sub_national,Sub-national Forest Legislation,"Legislation and regulations that govern and guide sustainable forest management, operations and use at sub-national level.",measure,geo
+6a_platform_national,National Stakeholder Platform,"A recognized procedure that a broad range of stakeholders can use to provide opinions, suggestions, analysis, recommendations and other input into the development of national forest policy at national level.",measure,geo
+6a_platform_sub_national,Sub-national Stakeholder Platform,"A recognized procedure that a broad range of stakeholders can use to provide opinions, suggestions, analysis, recommendations and other input into the development of forest policy at sub-national level.",measure,geo
+6a_policies_national,National Forest Policies,Policies or strategies that explicitly encourage sustainable forest management at national level.,measure,geo
+6a_policies_sub_national,Sub-national Forest Policies,Policies or strategies that explicitly encourage sustainable forest management at sub-national level.,measure,geo
+6a_traceability_national,National Traceability System,"A system that provides the ability to trace the origin, location and movement of wood products by means of recorded identifications at national level.",measure,geo
+6a_traceability_sub_national,Sub-national Traceability System,"A system that provides the ability to trace the origin, location and movement of wood products by means of recorded identifications at sub-national level.",measure,geo
+6b_pfe_area,Permanent Forest Estate Area,Forest area that is designated to be retained as forest and may not be converted to other land use.,measure,geo
+6b_pfe_y_n,Permanent Forest Estate (Yes/No),Indicator of whether the country has designated permanent forest estate.,measure,geo
+7a_emp_forestry,Employment in Forestry,"Full-time equivalent employment in silviculture and other forestry activities including growing of standing timber: planting, replanting, transplanting, thinning and conserving of forests and timber tracts.",measure,geo
+7a_emp_logging,Employment in Logging,Full-time equivalent employment in logging activities including production of roundwood for forest-based manufacturing industries and production of roundwood used in an unprocessed form.,measure,geo
+7a_emp_nwfp,Employment in NWFP Gathering,"Full-time equivalent employment in gathering of non wood forest products such as mushrooms, berries, nuts, resins, cork, etc.",measure,geo
+7a_emp_support,Employment in Support Services,"Full-time equivalent employment in support services to forestry such as forestry inventories, forest management consulting services, timber evaluation, forest fire fighting and protection.",measure,geo
+7a_employment,Total Forest Employment,Total full-time equivalent employment in activities related to production of goods derived from forests (ISIC/NACE Rev. 4 activity A02 - Forestry and logging).,measure,geo
+7b_ba,Bachelor's Degree Graduates,"Annual number of students graduating with bachelor's degree in forest-related education (university education with a duration of about 3 years, corresponding to ISCED 6 level).",measure,geo
+7b_msc,Master's Degree Graduates,"Annual number of students graduating with master's degree in forest-related education (university education with a total duration of about 5 years, corresponding to ISCED 7 level).",measure,geo
+7b_phd,Doctoral Degree Graduates,"Annual number of students graduating with doctoral degree in forest-related education (university education with a total duration of about 8 years, corresponding to ISCED 8 level).",measure,geo
+7b_tech,Technical Certificate Graduates,Annual number of students graduating with technician certificate or diploma in forest-related education (qualification issued from a technical education institution consisting of 1 to 3 years post-secondary education).,measure,geo
+7b_total,Total Forest Education Graduates,Total annual number of students graduating in forest-related education at all levels.,measure,geo

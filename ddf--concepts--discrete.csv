@@ -1,5 +1,0 @@
-concept,name,concept_type
-name,Name,string
-year,Year,time
-country,Country,entity_domain
-unit,Unit,string
