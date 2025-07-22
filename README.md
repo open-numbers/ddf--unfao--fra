@@ -1,5 +1,5 @@
 # Global Forest Resources Assessments
 
-source: http://www.fao.org/forest-resources-assessment/explore-data/flude/en/
+source: https://fra-data.fao.org/assessments/fra/2020/WO/data-download
 
-download data for all topics.
+download the Bulk Download zip file.
