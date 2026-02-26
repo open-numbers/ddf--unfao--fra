@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-07-22T08:44:48.633Z",
+    "created": "2026-02-26T02:36:30.543Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -217,6 +217,111 @@
             }
         },
         {
+            "name": "ddf--datapoints--1b_primary--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1b_primary--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "1b_primary"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--1b_primary_forest_boreal--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1b_primary_forest_boreal--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "1b_primary_forest_boreal"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--1b_primary_forest_sub_tropical--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1b_primary_forest_sub_tropical--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "1b_primary_forest_sub_tropical"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--1b_primary_forest_temperate--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1b_primary_forest_temperate--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "1b_primary_forest_temperate"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--1b_primary_forest_tropical--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1b_primary_forest_tropical--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "1b_primary_forest_tropical"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--1c_bamboos--by--geo--year",
             "path": "datapoints/ddf--datapoints--1c_bamboos--by--geo--year.csv",
             "schema": {
@@ -259,27 +364,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--1c_primary--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1c_primary--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "1c_primary"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--1c_rubber--by--geo--year",
             "path": "datapoints/ddf--datapoints--1c_rubber--by--geo--year.csv",
             "schema": {
@@ -301,8 +385,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--1c_temp_unstocked--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1c_temp_unstocked--by--geo--year.csv",
+            "name": "ddf--datapoints--1e_agroforestry--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1e_agroforestry--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -312,7 +396,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "1c_temp_unstocked"
+                        "name": "1e_agroforestry"
                     }
                 ],
                 "primaryKey": [
@@ -322,8 +406,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--1f_agroforestry--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1f_agroforestry--by--geo--year.csv",
+            "name": "ddf--datapoints--1e_other--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1e_other--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -333,7 +417,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "1f_agroforestry"
+                        "name": "1e_other"
                     }
                 ],
                 "primaryKey": [
@@ -343,8 +427,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--1f_other--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1f_other--by--geo--year.csv",
+            "name": "ddf--datapoints--1e_palms--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1e_palms--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -354,7 +438,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "1f_other"
+                        "name": "1e_palms"
                     }
                 ],
                 "primaryKey": [
@@ -364,8 +448,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--1f_palms--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1f_palms--by--geo--year.csv",
+            "name": "ddf--datapoints--1e_tree_orchards--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1e_tree_orchards--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -375,7 +459,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "1f_palms"
+                        "name": "1e_tree_orchards"
                     }
                 ],
                 "primaryKey": [
@@ -385,8 +469,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--1f_tree_orchards--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1f_tree_orchards--by--geo--year.csv",
+            "name": "ddf--datapoints--1e_trees_urban_settings--by--geo--year",
+            "path": "datapoints/ddf--datapoints--1e_trees_urban_settings--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -396,28 +480,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "1f_tree_orchards"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--1f_trees_urban_settings--by--geo--year",
-            "path": "datapoints/ddf--datapoints--1f_trees_urban_settings--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "1f_trees_urban_settings"
+                        "name": "1e_trees_urban_settings"
                     }
                 ],
                 "primaryKey": [
@@ -439,6 +502,27 @@
                     },
                     {
                         "name": "2a_gs_ha_forest"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2a_gs_ha_introduced--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2a_gs_ha_introduced--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2a_gs_ha_introduced"
                     }
                 ],
                 "primaryKey": [
@@ -544,6 +628,27 @@
                     },
                     {
                         "name": "2a_gs_ha_planted"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2a_gs_ha_primary--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2a_gs_ha_primary--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2a_gs_ha_primary"
                     }
                 ],
                 "primaryKey": [
@@ -670,6 +775,48 @@
                     },
                     {
                         "name": "2a_gs_tot_planted"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2a_gs_total_introduced--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2a_gs_total_introduced--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2a_gs_total_introduced"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2a_gs_total_primary--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2a_gs_total_primary--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2a_gs_total_primary"
                     }
                 ],
                 "primaryKey": [
@@ -1120,6 +1267,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--2c_agb_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2c_agb_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2c_agb_total"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--2c_bgb--by--geo--year",
             "path": "datapoints/ddf--datapoints--2c_bgb--by--geo--year.csv",
             "schema": {
@@ -1132,6 +1300,27 @@
                     },
                     {
                         "name": "2c_bgb"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2c_bgb_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2c_bgb_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2c_bgb_total"
                     }
                 ],
                 "primaryKey": [
@@ -1162,6 +1351,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--2c_dwb_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2c_dwb_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2c_dwb_total"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--2d_carbon_agb--by--geo--year",
             "path": "datapoints/ddf--datapoints--2d_carbon_agb--by--geo--year.csv",
             "schema": {
@@ -1174,6 +1384,27 @@
                     },
                     {
                         "name": "2d_carbon_agb"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2d_carbon_agb_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2d_carbon_agb_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2d_carbon_agb_total"
                     }
                 ],
                 "primaryKey": [
@@ -1204,6 +1435,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--2d_carbon_bgb_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2d_carbon_bgb_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2d_carbon_bgb_total"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--2d_carbon_dw--by--geo--year",
             "path": "datapoints/ddf--datapoints--2d_carbon_dw--by--geo--year.csv",
             "schema": {
@@ -1216,6 +1468,27 @@
                     },
                     {
                         "name": "2d_carbon_dw"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2d_carbon_dw_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2d_carbon_dw_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2d_carbon_dw_total"
                     }
                 ],
                 "primaryKey": [
@@ -1246,6 +1519,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--2d_carbon_litter_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2d_carbon_litter_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2d_carbon_litter_total"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--2d_carbon_soil--by--geo--year",
             "path": "datapoints/ddf--datapoints--2d_carbon_soil--by--geo--year.csv",
             "schema": {
@@ -1258,6 +1552,27 @@
                     },
                     {
                         "name": "2d_carbon_soil"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--2d_carbon_soil_total--by--geo--year",
+            "path": "datapoints/ddf--datapoints--2d_carbon_soil_total--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "2d_carbon_soil_total"
                     }
                 ],
                 "primaryKey": [
@@ -1330,8 +1645,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--3a_prim_no_unknown--by--geo--year",
-            "path": "datapoints/ddf--datapoints--3a_prim_no_unknown--by--geo--year.csv",
+            "name": "ddf--datapoints--3a_prim_no--by--geo--year",
+            "path": "datapoints/ddf--datapoints--3a_prim_no--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1341,7 +1656,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "3a_prim_no_unknown"
+                        "name": "3a_prim_no"
                     }
                 ],
                 "primaryKey": [
@@ -1426,6 +1741,27 @@
                     },
                     {
                         "name": "3a_prim_socserv"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--3a_prim_unknown--by--geo--year",
+            "path": "datapoints/ddf--datapoints--3a_prim_unknown--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "3a_prim_unknown"
                     }
                 ],
                 "primaryKey": [
@@ -1624,6 +1960,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--4a_fo_other--by--geo--year",
+            "path": "datapoints/ddf--datapoints--4a_fo_other--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "4a_fo_other"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--4a_fo_unknown--by--geo--year",
             "path": "datapoints/ddf--datapoints--4a_fo_unknown--by--geo--year.csv",
             "schema": {
@@ -1771,8 +2128,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--4b_individuals--by--geo--year",
-            "path": "datapoints/ddf--datapoints--4b_individuals--by--geo--year.csv",
+            "name": "ddf--datapoints--4b_other--by--geo--year",
+            "path": "datapoints/ddf--datapoints--4b_other--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1782,7 +2139,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "4b_individuals"
+                        "name": "4b_other"
                     }
                 ],
                 "primaryKey": [
@@ -1804,6 +2161,27 @@
                     },
                     {
                         "name": "4b_pub_admin"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--4b_unknown--by--geo--year",
+            "path": "datapoints/ddf--datapoints--4b_unknown--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "4b_unknown"
                     }
                 ],
                 "primaryKey": [
@@ -1939,6 +2317,195 @@
             }
         },
         {
+            "name": "ddf--datapoints--5c_y_n--by--geo--year",
+            "path": "datapoints/ddf--datapoints--5c_y_n--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "5c_y_n"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_legislation_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_legislation_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_legislation_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_legislation_sub_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_legislation_sub_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_legislation_sub_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_platform_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_platform_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_platform_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_platform_sub_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_platform_sub_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_platform_sub_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_policies_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_policies_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_policies_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_policies_sub_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_policies_sub_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_policies_sub_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_traceability_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_traceability_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_traceability_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--6a_traceability_sub_national--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6a_traceability_sub_national--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "6a_traceability_sub_national"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--6b_pfe_area--by--geo--year",
             "path": "datapoints/ddf--datapoints--6b_pfe_area--by--geo--year.csv",
             "schema": {
@@ -1960,8 +2527,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--7a_emp_forestry_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_forestry_fem--by--geo--year.csv",
+            "name": "ddf--datapoints--6b_pfe_y_n--by--geo--year",
+            "path": "datapoints/ddf--datapoints--6b_pfe_y_n--by--geo--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -1971,616 +2538,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "7a_emp_forestry_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_forestry_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_forestry_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_forestry_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_forestry_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_forestry_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_forestry_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_logging_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_logging_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_logging_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_logging_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_logging_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_logging_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_logging_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_logging_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_logging_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_nwfp_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_nwfp_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_nwfp_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_nwfp_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_nwfp_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_nwfp_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_nwfp_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_nwfp_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_nwfp_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_support_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_support_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_support_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_support_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_support_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_support_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_emp_support_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_emp_support_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_emp_support_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_employment_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_employment_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_employment_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_employment_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_employment_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_employment_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7a_employment_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7a_employment_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7a_employment_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_ba_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_ba_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_ba_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_ba_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_ba_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_ba_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_ba_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_ba_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_ba_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_msc_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_msc_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_msc_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_msc_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_msc_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_msc_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_msc_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_msc_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_msc_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_phd_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_phd_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_phd_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_phd_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_phd_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_phd_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_phd_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_phd_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_phd_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_tech_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_tech_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_tech_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_tech_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_tech_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_tech_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_tech_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_tech_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_tech_tot"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_total_fem--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_total_fem--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_total_fem"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_total_male--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_total_male--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_total_male"
-                    }
-                ],
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--7b_total_tot--by--geo--year",
-            "path": "datapoints/ddf--datapoints--7b_total_tot--by--geo--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "7b_total_tot"
+                        "name": "6b_pfe_y_n"
                     }
                 ],
                 "primaryKey": [
@@ -2747,6 +2705,56 @@
                     "geo",
                     "year"
                 ],
+                "value": "1b_primary",
+                "resources": [
+                    "ddf--datapoints--1b_primary--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "1b_primary_forest_boreal",
+                "resources": [
+                    "ddf--datapoints--1b_primary_forest_boreal--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "1b_primary_forest_sub_tropical",
+                "resources": [
+                    "ddf--datapoints--1b_primary_forest_sub_tropical--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "1b_primary_forest_temperate",
+                "resources": [
+                    "ddf--datapoints--1b_primary_forest_temperate--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "1b_primary_forest_tropical",
+                "resources": [
+                    "ddf--datapoints--1b_primary_forest_tropical--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "1c_bamboos",
                 "resources": [
                     "ddf--datapoints--1c_bamboos--by--geo--year"
@@ -2767,16 +2775,6 @@
                     "geo",
                     "year"
                 ],
-                "value": "1c_primary",
-                "resources": [
-                    "ddf--datapoints--1c_primary--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "value": "1c_rubber",
                 "resources": [
                     "ddf--datapoints--1c_rubber--by--geo--year"
@@ -2787,9 +2785,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "1c_temp_unstocked",
+                "value": "1e_agroforestry",
                 "resources": [
-                    "ddf--datapoints--1c_temp_unstocked--by--geo--year"
+                    "ddf--datapoints--1e_agroforestry--by--geo--year"
                 ]
             },
             {
@@ -2797,9 +2795,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "1f_agroforestry",
+                "value": "1e_other",
                 "resources": [
-                    "ddf--datapoints--1f_agroforestry--by--geo--year"
+                    "ddf--datapoints--1e_other--by--geo--year"
                 ]
             },
             {
@@ -2807,9 +2805,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "1f_other",
+                "value": "1e_palms",
                 "resources": [
-                    "ddf--datapoints--1f_other--by--geo--year"
+                    "ddf--datapoints--1e_palms--by--geo--year"
                 ]
             },
             {
@@ -2817,9 +2815,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "1f_palms",
+                "value": "1e_tree_orchards",
                 "resources": [
-                    "ddf--datapoints--1f_palms--by--geo--year"
+                    "ddf--datapoints--1e_tree_orchards--by--geo--year"
                 ]
             },
             {
@@ -2827,19 +2825,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "1f_tree_orchards",
+                "value": "1e_trees_urban_settings",
                 "resources": [
-                    "ddf--datapoints--1f_tree_orchards--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "1f_trees_urban_settings",
-                "resources": [
-                    "ddf--datapoints--1f_trees_urban_settings--by--geo--year"
+                    "ddf--datapoints--1e_trees_urban_settings--by--geo--year"
                 ]
             },
             {
@@ -2850,6 +2838,16 @@
                 "value": "2a_gs_ha_forest",
                 "resources": [
                     "ddf--datapoints--2a_gs_ha_forest--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2a_gs_ha_introduced",
+                "resources": [
+                    "ddf--datapoints--2a_gs_ha_introduced--by--geo--year"
                 ]
             },
             {
@@ -2900,6 +2898,16 @@
                 "value": "2a_gs_ha_planted",
                 "resources": [
                     "ddf--datapoints--2a_gs_ha_planted--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2a_gs_ha_primary",
+                "resources": [
+                    "ddf--datapoints--2a_gs_ha_primary--by--geo--year"
                 ]
             },
             {
@@ -2960,6 +2968,26 @@
                 "value": "2a_gs_tot_planted",
                 "resources": [
                     "ddf--datapoints--2a_gs_tot_planted--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2a_gs_total_introduced",
+                "resources": [
+                    "ddf--datapoints--2a_gs_total_introduced--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2a_gs_total_primary",
+                "resources": [
+                    "ddf--datapoints--2a_gs_total_primary--by--geo--year"
                 ]
             },
             {
@@ -3177,9 +3205,29 @@
                     "geo",
                     "year"
                 ],
+                "value": "2c_agb_total",
+                "resources": [
+                    "ddf--datapoints--2c_agb_total--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "2c_bgb",
                 "resources": [
                     "ddf--datapoints--2c_bgb--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2c_bgb_total",
+                "resources": [
+                    "ddf--datapoints--2c_bgb_total--by--geo--year"
                 ]
             },
             {
@@ -3197,9 +3245,29 @@
                     "geo",
                     "year"
                 ],
+                "value": "2c_dwb_total",
+                "resources": [
+                    "ddf--datapoints--2c_dwb_total--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "2d_carbon_agb",
                 "resources": [
                     "ddf--datapoints--2d_carbon_agb--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2d_carbon_agb_total",
+                "resources": [
+                    "ddf--datapoints--2d_carbon_agb_total--by--geo--year"
                 ]
             },
             {
@@ -3217,9 +3285,29 @@
                     "geo",
                     "year"
                 ],
+                "value": "2d_carbon_bgb_total",
+                "resources": [
+                    "ddf--datapoints--2d_carbon_bgb_total--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "2d_carbon_dw",
                 "resources": [
                     "ddf--datapoints--2d_carbon_dw--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2d_carbon_dw_total",
+                "resources": [
+                    "ddf--datapoints--2d_carbon_dw_total--by--geo--year"
                 ]
             },
             {
@@ -3237,9 +3325,29 @@
                     "geo",
                     "year"
                 ],
+                "value": "2d_carbon_litter_total",
+                "resources": [
+                    "ddf--datapoints--2d_carbon_litter_total--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "2d_carbon_soil",
                 "resources": [
                     "ddf--datapoints--2d_carbon_soil--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "2d_carbon_soil_total",
+                "resources": [
+                    "ddf--datapoints--2d_carbon_soil_total--by--geo--year"
                 ]
             },
             {
@@ -3277,9 +3385,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "3a_prim_no_unknown",
+                "value": "3a_prim_no",
                 "resources": [
-                    "ddf--datapoints--3a_prim_no_unknown--by--geo--year"
+                    "ddf--datapoints--3a_prim_no--by--geo--year"
                 ]
             },
             {
@@ -3320,6 +3428,16 @@
                 "value": "3a_prim_socserv",
                 "resources": [
                     "ddf--datapoints--3a_prim_socserv--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "3a_prim_unknown",
+                "resources": [
+                    "ddf--datapoints--3a_prim_unknown--by--geo--year"
                 ]
             },
             {
@@ -3417,6 +3535,16 @@
                     "geo",
                     "year"
                 ],
+                "value": "4a_fo_other",
+                "resources": [
+                    "ddf--datapoints--4a_fo_other--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "4a_fo_unknown",
                 "resources": [
                     "ddf--datapoints--4a_fo_unknown--by--geo--year"
@@ -3487,9 +3615,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "4b_individuals",
+                "value": "4b_other",
                 "resources": [
-                    "ddf--datapoints--4b_individuals--by--geo--year"
+                    "ddf--datapoints--4b_other--by--geo--year"
                 ]
             },
             {
@@ -3500,6 +3628,16 @@
                 "value": "4b_pub_admin",
                 "resources": [
                     "ddf--datapoints--4b_pub_admin--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "4b_unknown",
+                "resources": [
+                    "ddf--datapoints--4b_unknown--by--geo--year"
                 ]
             },
             {
@@ -3567,6 +3705,96 @@
                     "geo",
                     "year"
                 ],
+                "value": "5c_y_n",
+                "resources": [
+                    "ddf--datapoints--5c_y_n--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_legislation_national",
+                "resources": [
+                    "ddf--datapoints--6a_legislation_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_legislation_sub_national",
+                "resources": [
+                    "ddf--datapoints--6a_legislation_sub_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_platform_national",
+                "resources": [
+                    "ddf--datapoints--6a_platform_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_platform_sub_national",
+                "resources": [
+                    "ddf--datapoints--6a_platform_sub_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_policies_national",
+                "resources": [
+                    "ddf--datapoints--6a_policies_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_policies_sub_national",
+                "resources": [
+                    "ddf--datapoints--6a_policies_sub_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_traceability_national",
+                "resources": [
+                    "ddf--datapoints--6a_traceability_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "6a_traceability_sub_national",
+                "resources": [
+                    "ddf--datapoints--6a_traceability_sub_national--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "6b_pfe_area",
                 "resources": [
                     "ddf--datapoints--6b_pfe_area--by--geo--year"
@@ -3577,299 +3805,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "7a_emp_forestry_fem",
+                "value": "6b_pfe_y_n",
                 "resources": [
-                    "ddf--datapoints--7a_emp_forestry_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_forestry_male",
-                "resources": [
-                    "ddf--datapoints--7a_emp_forestry_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_forestry_tot",
-                "resources": [
-                    "ddf--datapoints--7a_emp_forestry_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_logging_fem",
-                "resources": [
-                    "ddf--datapoints--7a_emp_logging_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_logging_male",
-                "resources": [
-                    "ddf--datapoints--7a_emp_logging_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_logging_tot",
-                "resources": [
-                    "ddf--datapoints--7a_emp_logging_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_nwfp_fem",
-                "resources": [
-                    "ddf--datapoints--7a_emp_nwfp_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_nwfp_male",
-                "resources": [
-                    "ddf--datapoints--7a_emp_nwfp_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_nwfp_tot",
-                "resources": [
-                    "ddf--datapoints--7a_emp_nwfp_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_support_fem",
-                "resources": [
-                    "ddf--datapoints--7a_emp_support_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_support_male",
-                "resources": [
-                    "ddf--datapoints--7a_emp_support_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_emp_support_tot",
-                "resources": [
-                    "ddf--datapoints--7a_emp_support_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_employment_fem",
-                "resources": [
-                    "ddf--datapoints--7a_employment_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_employment_male",
-                "resources": [
-                    "ddf--datapoints--7a_employment_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7a_employment_tot",
-                "resources": [
-                    "ddf--datapoints--7a_employment_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_ba_fem",
-                "resources": [
-                    "ddf--datapoints--7b_ba_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_ba_male",
-                "resources": [
-                    "ddf--datapoints--7b_ba_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_ba_tot",
-                "resources": [
-                    "ddf--datapoints--7b_ba_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_msc_fem",
-                "resources": [
-                    "ddf--datapoints--7b_msc_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_msc_male",
-                "resources": [
-                    "ddf--datapoints--7b_msc_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_msc_tot",
-                "resources": [
-                    "ddf--datapoints--7b_msc_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_phd_fem",
-                "resources": [
-                    "ddf--datapoints--7b_phd_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_phd_male",
-                "resources": [
-                    "ddf--datapoints--7b_phd_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_phd_tot",
-                "resources": [
-                    "ddf--datapoints--7b_phd_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_tech_fem",
-                "resources": [
-                    "ddf--datapoints--7b_tech_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_tech_male",
-                "resources": [
-                    "ddf--datapoints--7b_tech_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_tech_tot",
-                "resources": [
-                    "ddf--datapoints--7b_tech_tot--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_total_fem",
-                "resources": [
-                    "ddf--datapoints--7b_total_fem--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_total_male",
-                "resources": [
-                    "ddf--datapoints--7b_total_male--by--geo--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "7b_total_tot",
-                "resources": [
-                    "ddf--datapoints--7b_total_tot--by--geo--year"
+                    "ddf--datapoints--6b_pfe_y_n--by--geo--year"
                 ]
             },
             {
